@@ -1,2 +1,2 @@
-# dsa
-Data Structure and Algorithm
+# dsa python
+Data Structure and Algorithm implementation in python
