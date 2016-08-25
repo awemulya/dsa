@@ -10,8 +10,8 @@ class BinarySearch(object):
     def search(self,value,low=None,high=None):
         if not (isinstance(value,int) or isinstance(value, float)):
             raise TypeError("search item value must be type integer or float")
-        if low is None: low =  min(self._seq)
-        if high is None: high = max(self._seq)
+        if low is None: low =  0
+        if high is None: high = len(self._seq)-1
         if low > high:
             return False
 
