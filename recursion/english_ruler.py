@@ -1,4 +1,5 @@
 class EnglihRuler(object):
+    """Class to draw english ruler"""
     def __init__(self,inches, tick_length):
 
         if not isinstance(inches, int):
@@ -26,8 +27,6 @@ class EnglihRuler(object):
             self.draw_interval(central_length-1)
             self.draw_line(central_length)
             self.draw_interval(central_length-1)
-
-
 
 
 if __name__ == '__main__':
