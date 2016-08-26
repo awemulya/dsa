@@ -1,5 +1,5 @@
 from unittest import TestCase
-from recursion.linear_sum import LinearSum
+from source.recursion.linear_sum import LinearSum
 
 
 class LinearSumTest(TestCase):

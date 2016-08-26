@@ -1,5 +1,5 @@
 from unittest import TestCase, mock
-from recursion.english_ruler import EnglihRuler
+from source.recursion.english_ruler import EnglihRuler
 
 
 class TestEnglishRuler(TestCase):

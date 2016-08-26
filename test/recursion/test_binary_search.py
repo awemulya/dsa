@@ -1,5 +1,5 @@
 from unittest import TestCase, mock
-from recursion.binary_search import BinarySearch
+from source.recursion.binary_search import BinarySearch
 
 
 class TestBinarySearch(TestCase):

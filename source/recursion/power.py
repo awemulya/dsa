@@ -8,10 +8,16 @@ class Power(object):
             raise TypeError("n must be type int")
         self._x = x
         self._n = n
-        self._result = self.calculate_power()
 
-    def calculate_power(self):
-        return True
+    def calculate_power(self, n=None):
+        if n is None:
+            n = self._n
+        if n == 0 :
+            return 1
+        else:
+            partial = self.calculate_power(n//2)
+            result = partial * partial
+            if n % 2: #n odd
+                return result * self._x
+            return result
 
-    def get_result(self):
-        return self._result
